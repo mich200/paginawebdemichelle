@@ -1,0 +1,45 @@
+ul {  
+    list-style-type: none;  
+    padding: 0;  
+    display: flex;  
+    margin-right: 20px;  
+    color: #fff;  
+    text-decoration: none;  
+    transition: color 0.3s;  
+    justify-content: space-between;  
+}  
+
+ul a {  
+    color: inherit; 
+}  
+
+ul a:hover {  
+    color: #4CAF50;  
+}  
+
+.container {  
+    display: flex;  
+    justify-content: space-between; 
+}  
+
+/* Media Queries para responsividad */  
+@media (max-width: 768px) {  
+    ul {  
+        flex-direction: column;  
+        margin-right: 0; 
+        align-items: center;}
+
+    .container {  
+        flex-direction: column;   
+    }  
+}  
+
+@media (max-width: 480px) {  
+    ul {  
+        margin: 10px 0; 
+    }  
+
+    .container {  
+        padding: 10px;  
+    }  
+}  

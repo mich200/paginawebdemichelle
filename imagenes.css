@@ -1,0 +1,62 @@
+/* Estilo para imágenes */  
+.imagen {  
+    width: 50px;  
+    height: 150px;  
+    display: flex;  
+    margin-bottom: 20px;  
+    flex-direction: row;  
+}  
+
+main {  
+    display: flex;  
+    flex-direction: row;  
+    width: 50%;  
+    margin-bottom: 20px;  
+}  
+
+.foto_principal {  
+    display: flex;  
+    flex-direction: row;  
+    justify-content: center;  
+}  
+
+.fotos {  
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-between;  
+    display: inline-block;  
+}  
+
+.img_catalogo {  
+    width: 50px;  
+    height: 50px;  
+    margin: 5px 20px;  
+}  
+
+
+@media (max-width: 768px) {  
+    main {  
+        flex-direction: column; }
+
+    .imagen {  
+        width: 100%;   
+        height: auto; 
+    }  
+
+    .img_catalogo {  
+        width: 45px;  
+        height: 45px;  
+        margin: 5px;
+    }  
+}  
+
+@media (max-width: 480px) {  
+    .imagen {  
+        height: auto; 
+    }  
+
+    .img_catalogo {  
+        width: 40px;  
+        height: 40px;  
+    }  
+}  

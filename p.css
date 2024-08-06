@@ -1,0 +1,42 @@
+.p_portafolio {  
+    color: white;  
+    text-align: center;  
+    font-size: 25px;  
+    font-style: italic;  
+    font-weight: bold;  
+}  
+
+.p_shopping {  
+    text-align: center;  
+    justify-content: center;  
+}  
+
+.parrafo_inicio {  
+    color: white;  
+    text-align: center;  
+    font-size: 25px;  
+    font-style: italic;  
+    font-weight: bold;  
+    background-color: #7289a0;  
+    border-radius: 5px;  
+}  
+
+
+@media (max-width: 768px) {  
+    .p_portafolio,  
+    .parrafo_inicio {  
+        font-size: 20px; 
+    }  
+}  
+
+@media (max-width: 480px) {  
+    .p_portafolio,  
+    .parrafo_inicio {  
+        font-size: 18px;   
+        padding: 10px;  
+    }  
+
+    .p_shopping {  
+        padding: 0 10px;   
+    }  
+}  
